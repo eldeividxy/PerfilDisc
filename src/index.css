@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+/* Estilos base */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2D3748;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.2rem;
+}
+
+  @media (max-width: 768px) {
+    #root {
+      padding: 10px;
+    }
+  
+    .App {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    .question h3 {
+      font-size: 1rem;
+    }
+  
+    .options {
+      flex-direction: column;
+    }
+  
+    .plus-options,
+    .minus-options {
+      width: 100%;
+    }
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+    color: #000; 
+  }
+  
+  button {
+    font-family: inherit; 
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 800;
+  }
+  
+  p, span {
+    font-weight: 400; 
+  }
+  
+ 
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+
+button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 12px 20px;
+}
+
+.question {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+@media (max-width: 480px) {
+  .options {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .plus-options h4, 
+  .minus-options h4 {
+    font-size: 0.9rem;
+    margin: 8px 0;
+  }
+  
+  button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}

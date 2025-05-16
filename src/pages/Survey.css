@@ -1,0 +1,108 @@
+/* src/components/Survey/Survey.css */
+.survey-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.survey-final button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.survey-final button:hover {
+  background-color: #3700b3;
+}
+
+.survey p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4A5568;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  max-width: 75ch; 
+}
+
+  .survey h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2D3748;
+    margin: 2rem 0;
+  }
+  .survey h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--primary-color);
+  }
+
+
+  .survey h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 3rem; /* 48px */
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #2D3748; 
+    margin: 1.5rem 0;
+    position: relative;
+    text-align: center;
+    
+
+    background: linear-gradient(90deg, #6C63FF 0%, #4A90E2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  
+  .survey h1::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #6C63FF 0%, #4A90E2 100%);
+    border-radius: 2px;
+  }
+  
+
+  .survey h3::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #6C63FF;
+  }
+  
+  .survey h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #4A5568;
+    margin: 1.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+  }

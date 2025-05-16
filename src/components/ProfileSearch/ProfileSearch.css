@@ -1,0 +1,119 @@
+/* ProfileSearch.css */
+.profile-search-container {
+    background-color: #38e36e; /* Rojo vendedor */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  .search-box {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+  }
+  .ProfileSearch a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  }
+
+  input {
+    padding: 12px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  button {
+    background: #6643b7;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-result {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+
+
+
+.profile-footer button {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.profile-footer button:hover {
+  background-color: #3700b3;
+}
+.profile-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+
+.ProfileSearch html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.ProfileSearch ul {
+  padding: 0;
+  width: 100%;
+}
+
+.ProfileSearchli {
+  display: inline;
+}
+
+.ProfileSearch a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+.ProfileSearch li:last-child a {
+  margin-right: 0;
+}
+
+.ProfileSearch a:link,
+.ProfileSearch a:visited,
+.ProfileSearch a:focus {
+  background: yellow;
+}
+
+.ProfileSearch a:hover {
+  background: orange;
+}
+
+.ProfileSearch a:active {
+  background: red;
+  color: white;
+}
